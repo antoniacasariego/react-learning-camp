@@ -1,0 +1,23 @@
+#title {
+    text-align: center;
+    color: pink;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#theme {
+    text-align: center;
+    color: #D4126A; 
+    font-family: 'Abril Fatface', 'Times New Roman';
+    font-size: xx-large;
+}
+
+.plain-text {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border: 10px solid pink;
+    background-color: pink; 
+}
