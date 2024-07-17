@@ -1,6 +1,21 @@
+// Ejercicio en codewars #1 Suma de positivos
+function positiveSum(arr) {
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++){
+      if(arr[i] > 0){
+        sum += arr[i];
+      }
+    }
+    return sum;  
+  } 
+
+// Ejercicio en codewars #2 Messi! 
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
+
 function sum (a, b) {
-    return a + b;
-    
+    return a + b; 
 }
 
 function subtract (a, b) {
