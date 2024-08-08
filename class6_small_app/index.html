@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome!</h1>
+            <h3>Please submit your name and age to log in:</h3>
+            <form id="logInForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+                <label for="age">Age:</label>
+                <input type="text" id="age" age="age">
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="welcome"></p>
+        </div>
+    </body>
+    <script>
+        const form = document.getElementById("logInForm");
+        const welcomeMessage = document.getElementById("welcome");
+
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            const name = form.name.value;
+            const age = form.age.value;
+
+            welcomeMessage.textContent = `Welcome to our site ${name}, you are ${age} years old.`;
+        });
+    </script>
+</html>

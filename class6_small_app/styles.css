@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica;
+    background-color: #e9ffa1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff88e3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+button:hover {
+    background-color: #e979cf;
+}
